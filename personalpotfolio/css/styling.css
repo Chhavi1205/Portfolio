@@ -1,0 +1,60 @@
+header{
+width: 100%;
+padding:auto;
+align-items: center;
+display:flex;
+justify-content: flex-end;
+background: transparent;
+}
+nav a{
+    margin:0px 15px;
+    text-decoration: none;
+    font-weight: 50px;
+    color:black;
+}
+nav{
+    display: flex;
+    gap:30px;
+}
+nav a:hover{
+    color:blue;
+}
+.Mine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px ;
+    margin-top: 40px;
+}
+.leftside{
+    width: 50%;
+}
+.leftside h3{
+    color:blueviolet;
+}
+.leftside h1 span{
+    color:blueviolet;
+}
+.leftside p{
+    font-size: 15px;
+    color:black;
+    line-height:1;
+}
+.hire{
+    background-color: blueviolet;
+    color:blanchedalmond;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+}
+.hire:hover{
+    color:white;
+}
+.rightside img{
+    width: 280px;
+    padding-right:150px;
+    border-color: black;
+}
+.removebg{
+    background-color: transparent;
+}
